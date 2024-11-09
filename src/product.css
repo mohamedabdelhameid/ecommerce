@@ -1,0 +1,41 @@
+.bblockk{
+  animation: appea1r 2s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 15%;
+}
+.divNNone,
+.i2nonnne{
+  display: none;
+}
+/* .i2nonnne{
+  display: none;
+} */
+@keyframes appea1r {
+  from{
+    /* transform: translateX(0%); */
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to{
+    transform: scale(1);
+    /* transform: translateX(0%); */
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .i5i{
+    display: unset;
+  }
+  .i2nonnne{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .divNNone2,
+  .i2nonnne{
+    display: unset;
+  }
+  .DivVid a{
+    display: none;
+  }
+}

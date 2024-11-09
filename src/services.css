@@ -1,0 +1,10 @@
+.div-5{
+  cursor: pointer;
+}
+.div-5 img{
+  filter: grayscale(1);
+  transition: 0.4s;
+}
+.div-5 img:hover{
+  filter: grayscale(0);
+}
