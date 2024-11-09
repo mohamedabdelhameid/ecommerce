@@ -27,6 +27,9 @@ export function Prroducct(){
                         <a href="/" style={color: #75237f; text-decoration: none;}>
                               <h5>Home</h5>
                         </a>
+                        <a href="/product" style={color: #75237f; text-decoration: none;}>
+                              <h5>Product</h5>
+                        </a>
                         <a href="/contact" style={color: #75237f; text-decoration: none;}>
                               <h5>Contact</h5>
                         </a>
