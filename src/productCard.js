@@ -4,7 +4,7 @@ import './product.css';
 import './homeapi.css';
 import { addToCart } from './cartSlice';
 import { useDispatch } from 'react-redux'
-
+import './productCard.css';
 
 function ProductCard({ product }) {
   const navigate = useNavigate();
@@ -18,12 +18,12 @@ function ProductCard({ product }) {
     <>
       {/* {products && products.map((product)=>( */}
         <div class="div-1 bblockk">
-          <img src={product.image} onClick={()=>{
+          <img className='img-fluid' src={product.image} onClick={()=>{
             navigate(`/product/${product.id}`)
           }} alt="" />
           <div class="div2flex">
-          <p id="title">{product.title}</p>
-            <p id="Price">{product.price}</p>
+          <p id="title" className='ppopo'>{product.title}</p>
+            <p id="Price">{product.price} $</p>
             <div class="btns">
               <button id="btn-1" className='btn btn-primary' style={{width:'100%'}} onClick={()=>{
                 dispatch(addToCart(product));

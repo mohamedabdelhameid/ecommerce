@@ -1,0 +1,13 @@
+.ppopo{
+  height: 30px;
+  overflow: hidden;
+  transition: all 1.2s;
+}
+.div-1{
+  height: fit-content;
+  transition: all 1.2s;
+}
+.div-1:hover .ppopo{
+  transition: all 1.2s;
+  height: fit-content;
+}
